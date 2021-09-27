@@ -118,13 +118,13 @@ async def play(_, message: Message):
                 try:
                     await USER.join_chat(invitelink)
                     await USER.send_message(
-                        message.chat.id, "**camila Music assistant joined this group for play music 🎵**")
+                        message.chat.id, "**KLAER MUSIC assistant joined this group for play music 🎵**")
 
                 except UserAlreadyParticipant:
                     pass
                 except Exception:
                     await lel.edit(
-                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name},@camilaowner assistant userbot couldn't join your group due to heavy join requests @camila_support. Make sure userbot is not banned in group and try again later!")
+                        f"<b>🛑 Flood Wait Error 🛑</b> \n\Hey {user.first_name},@M_P_L_6 assistant userbot couldn't join your group due to heavy join requests @M_P_L_6. Make sure userbot is not banned in group and try again later!")
     try:
         await USER.get_chat(chid)
     except:
